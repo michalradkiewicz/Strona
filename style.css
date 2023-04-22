@@ -1,0 +1,18 @@
+.intro{
+    background-color: grey;
+}
+.me{
+    color: blue;
+    font-weight: bold;
+    font-size: 45px;
+}
+.name{
+    font-size: 25px;
+}
+.sname{
+    font-size: 25px;
+}
+.send{
+    font-weight: bold;
+    font-size: 35px;
+}
