@@ -6,10 +6,11 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1 class="intro">Witaj na mojej stronie domowej</h1>
-        <img src="C:\Users\micha\Downloads\b8f5217a2ed76012bc969475453a.1000.jpg" alt="Człek bez oczu" title="Juras">
+        {% extends "parent.html" %}
+        {% block content %}
         <p class="me"> O mnie</p>
             <p class="name"><strong>Imię:</strong> Michał</p>
             <p class="sname"><strong>Nazwisko:</strong> Radkiewicz</p>
+        {% endblock %}
     </body>
 </html>

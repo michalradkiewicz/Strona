@@ -6,8 +6,8 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1 class="intro">Witaj na mojej stronie domowej</h1>
-        <img src="C:\Users\micha\Downloads\z23841028AMP,Garfield.jpg" alt="Człek bez oczu" title="Juras">
+        {% extends "parent.html" %}
+        {% block content %}
             <p class="me"> Kontakt</p>
             <ul><li class="name"><strong>E-mail:<input text></strong></li>
             <li class="sname"><strong>Telefon:<input text></strong></li>
@@ -15,5 +15,6 @@
             <textarea name="Tekst" id="" cols="50" rows="10"></textarea>
             <form action="---"></form>
             <button type="submit"><strong>Wyślij</strong></button>
+        {% endblock %}
     </body>
 </html>
